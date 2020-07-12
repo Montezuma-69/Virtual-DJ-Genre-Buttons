@@ -17811,9 +17811,9 @@
     </panel>
     <visual class="squarewavegrey" x="0" y="139" width="1920" height="2" visibility="var_equal '@$custombar20' 0"/>
     <browser class="browser" x="0" y="141" width="1920" height="939" visibility="browser_zoom && var_equal '@$prelisten20' 0 && var_equal '@$custombar20' 0"/>
-    <browser class="browser" x="0" y="201" width="1920" height="879" visibility="browser_zoom && var_equal '@$prelisten20' 0 && var_equal '@$custombar20' 1"/>
+    <browser class="browser" x="0" y="201+85" width="1920" height="879-85" visibility="browser_zoom && var_equal '@$prelisten20' 0 && var_equal '@$custombar20' 1"/>
     <browser class="browser" x="0" y="141" width="1920" height="914" visibility="browser_zoom && var_equal '@$prelisten20' 1 && var_equal '@$custombar20' 0"/>
-    <browser class="browser" x="0" y="201" width="1920" height="854" visibility="browser_zoom && var_equal '@$prelisten20' 1 && var_equal '@$custombar20' 1"/>
+    <browser class="browser" x="0" y="201+85" width="1920" height="854-85" visibility="browser_zoom && var_equal '@$prelisten20' 1 && var_equal '@$custombar20' 1"/>
     <panel class="custombar" x="0" y="141" condition="var_equal '@$custombar20' 1"/>
 </define>
 <define class="browser2bignowave">
