@@ -7,4 +7,3 @@ To port it to Virtual DJ 2020 (32Bit), you will need to compile a new .DLL file.
 4) Obove Deck 2 klick to "Skin 2" and enable browser/Custom Button Bar and browser/24/44 Custom Button Bar
 4) Go to my Custom Button folder, there is an example how to fill a custom button. The example button is for the Genre Reaggae (the "." after Reggae is a separator, it must be there.)
 5) Create a Filter Folder at VDJ with the Filter: Comment contains "Reggae."
-
