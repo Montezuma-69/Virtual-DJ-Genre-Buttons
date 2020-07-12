@@ -1,0 +1,9 @@
+You need Virtual DJ 2021 (64Bit), if you want to let run the precompiled .DLL file.
+To port it to Virtual DJ 2020 (32Bit), you will need to compile a new .DLL file. Take the sources on plugin/source as example.
+
+1) Go into the Skin folder and copy the folder "Controller 2020 by DennYo" to C:\Users\<username>\Documents\VirtualDJ\Skins
+2) Change the skin at Virtual DJ and set it to "2 Deck big" and to 24/44 Custom Buttons Bar. Vor the other views ive not finished to align the browser height. I will do later.
+3) Go into the Plugin folder and copy the MyPlugin8.dll to C:\Users\<username>\Documents\VirtualDJ\Plugins64, restart VDJ.
+4) Go to the Custom Button folder, there is an example how to fill a custom button. The example button is for the Genre Reaggae (the "." after Reggae is a separator, it must be there.)
+5) Create a Filter Folder at VDJ with the Filter: Comment contains "Reggae."
+

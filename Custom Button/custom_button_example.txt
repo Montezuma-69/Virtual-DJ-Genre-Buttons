@@ -1,0 +1,1 @@
+get_browsed_song 'comment' & param_contains "Reggae."? on&up?effect_command 'MyPlugin8' 1 'Reggae.':nothing: up?get_browsed_song 'comment' & param_add "Reggae." & browsed_song "comment":nothing:off&off

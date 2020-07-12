@@ -1,0 +1,2 @@
+C:\Users\monty.4XL\source\repos\MyPlugin8\x64\Debug\MyPlugin8.dll
+C:\Users\monty.4XL\source\repos\MyPlugin8\x64\Debug\MyPlugin8.pdb

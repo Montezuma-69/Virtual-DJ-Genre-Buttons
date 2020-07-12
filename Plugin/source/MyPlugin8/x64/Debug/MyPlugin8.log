@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  dllmain.cpp
+  main.cpp
+  MyPlugin8.cpp
+  Code wird generiert...
+main.obj : warning LNK4104: Export von Symbol "DllGetClassObject" muss PRIVATE sein.
+     Bibliothek "C:\Users\monty.4XL\source\repos\MyPlugin8\x64\Debug\MyPlugin8.lib" und Objekt "C:\Users\monty.4XL\source\repos\MyPlugin8\x64\Debug\MyPlugin8.exp" werden erstellt.
+  MyPlugin8.vcxproj -> C:\Users\monty.4XL\source\repos\MyPlugin8\x64\Debug\MyPlugin8.dll

@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  dllmain.cpp
+  main.cpp
+C:\Users\monty.4XL\source\repos\MyPlugin8\main.cpp(18,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  MyPlugin8.cpp
+C:\Users\monty.4XL\source\repos\MyPlugin8\MyPlugin8.cpp(96,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  Code wird generiert...

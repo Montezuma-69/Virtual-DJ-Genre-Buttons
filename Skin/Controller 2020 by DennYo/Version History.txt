@@ -1,0 +1,104 @@
+Version History 3.1.2 - 2020/06/22
+
+    -add - the new stems feature
+    -add - toggle the HOTCUES to saved Loops ("Skin Button"/Deck Setup/HotCUEs/SaveLoops)
+________________________________________________________________________________
+
+Version History 3.1.1 - 2020/06/04
+
+    -add - Browser mouse auto zoom
+    -add - custom panel 4cue/custom (only custom buttons, no knobs)
+________________________________________________________________________________
+
+Version History 3.1.0 - 2020/06/04
+
+    -Bugfix - correct the variable cycle ('@$wavesort20') on the Variable Support Page
+
+    -add - the Filter Resonance setting to the round button over the Crossfader
+    -add - add an second square for the "big extra" on jog logo in the img.png 
+________________________________________________________________________________
+
+Version History 3.0.9 - 2020/04/21
+
+    -Bugfix - many positions of the Browser Area was wrong
+
+    -add - you can now change the Artist/Title Info to scroll text ("Skin Button"/Deck Setup/Song Infos scroll)   
+
+________________________________________________________________________________
+
+
+Version History 3.0.8
+
+
+    -Bugfix - Textsize of the Cue Buttons
+    -Bugfix - KEY move arrow in big deck Video was on the wrong position
+
+    -add - you can turn off the border arround the Song Infos Pitch/KEY/Gain/Rate ("Skin Button"/Deck ("Skin Button"/Deck Setup/Song Infos scroll) Song Infos)
+
+
+________________________________________________________________________________
+
+Version History 3.0.7
+  
+   
+     -add - KEY menu like the original Skin
+
+________________________________________________________________________________
+
+Version History 3.0.6
+
+    -Bugfix - the Custom Buttons on toggle pad and cue area are visible, now
+
+________________________________________________________________________________
+
+Version History 3.0.5
+
+    -Bugfix - the width of the right padbutton 2 on 2 deck middle extra corrected
+
+________________________________________________________________________________
+
+Version History 3.0.4
+
+    -Bugfix - the Border around the select- or Master-Deck can deactivate, now
+    -Bugfix - the "Beat shadow" in the main wave is better visible on black wave background, now    
+    -Bugfix - add the '@$masterdeck20' variable to the VRIABLE SUPPORT PAGE
+
+    -add - extra big 2 Deck layout ("Skin Button"/Variation/2 Deck big extra)("Skin Button"/Variation/2 Deck middle extra)
+    -change - the Custombutton Bar Button names (you must set the actions new on all buttons)     
+    -other - change all addition and subtraction to the result values in the skin.xml
+
+________________________________________________________________________________
+
+Version History 3.0.3
+
+    -Bugfix - wrong scaling of the prelisten part on scale the skin to not 16:9 resolution
+    -Bugfix - the Songposition Wave can now always click to move the Song. No matter what setting.
+
+    -add - 24 Custombutton Bar in the top of the Browser ("Skin Button"/Browser/Custom Button Bar)
+    -add - toggle the Custombutton Bar in 24 or 44 buttons ("Skin Button"/Browser/24 44 Custom Button Bar)
+    -add - change the PAD and the CUE/Custom Area ("Skin Button"/Deck Setup/toggle PAD and CUE Area)
+    -add - prelistenplayer on the external Broserwindow
+    -add - change to a half Songposition Wave ("Skin Button"/Songposition Wave/full half Songposwave 
+    -add - Costum Logo on Jog. You can add your own Logo as Jog Background in the img.png. Please use texture alpha to save the img.png ("Skin Button"/Jog/JogLogo)
+
+
+________________________________________________________________________________
+
+Version History 3.0.2
+
+    -show 3.0.3, 3.0.2 was an internal update
+
+
+________________________________________________________________________________
+
+Version History 3.0.1
+
+    -Bugfix - Browsersize on 2bignopad2small large Wave
+    -Bugfix - Browsersize on 2bignopad2small large 1 Wave
+    -Bugfix - Settingsbutton was invisible on MAC
+    -Bugfix - Setting window closed after change to my skin (bug was only on MAC)
+
+    -add Skin color sheme dark grey
+    -add color FX on all Roundbuttons in the near of thr Filter knobbs
+    -add MIX FX on all Roundbottons in the near of the Crossfaders
+    -add a orange border arrount the crossfader for visible MIX FX is on

@@ -1,0 +1,156 @@
+When you will change a variable with a custom button or a mapped key, you must paste at the end of youre script "& load_skin"
+for example: 
+
+set '@$day20' 1 & load_skin
+
+or
+
+var_equal '@$day20' 0 ? set '@$day20' 1 & load_skin : set '@$day20' 0 & load_skin 
+
+--------------------------------------------------------------------------------
+'@$4decks20' 0          ->  2 Deck Skin
+'@$4decks20' 1          ->  4 Deck Skin
+--------------------------------------------------------------------------------
+'@$deck20' 0            ->  4 Deck Skin (used only in 4 Deck Skin)
+'@$deck20' 1            ->  2 Deck Skin (used only in 4 Deck Skin)
+--------------------------------------------------------------------------------
+'@$day20' 0             ->  light grey color sheme
+'@$day20' 1             ->  white color sheme
+'@$day20' 2             ->  dark grey color sheme
+--------------------------------------------------------------------------------
+'@$colormode20' 0       ->  Deck 1 blue, Deck 2 red, Deck 3 green, Deck 4 yellow
+'@$colormode20' 1       ->  Deck 1 blue, Deck 2 yellow, Deck 3 green, Deck 4 red
+--------------------------------------------------------------------------------
+'@$text+20' 0           ->  normal font size
+'@$text+20' 1           ->  bigger font size
+--------------------------------------------------------------------------------
+'@$power20' 0           ->  blink when notebook on battery
+'@$power20' 1           ->  deactivate blink when notebook on battery
+--------------------------------------------------------------------------------
+'@$counter20' 0         ->  show the license and the VDJ Version on the top
+'@$counter20' 1         ->  show the counter on the top
+--------------------------------------------------------------------------------
+'@$selectdeck20' 0      ->  hide the selected Deck border
+'@$selectdeck20' 1      ->  show the selected Deck border     
+--------------------------------------------------------------------------------
+'@$masterdeck20' 0      ->  hide the Master Deck border
+'@$masterdeck20' 1      ->  show the Master Deck border
+--------------------------------------------------------------------------------
+'@$variation20' 0       ->  BIG layout
+'@$variation20' 1       ->  MIDDLE layout
+'@$variation20' 2       ->  SMALL layout
+'@$variation20' 3       ->  two BIG + 2 SMALL layout (only 4 Deck)
+'@$variation20' 4       ->  two MIDDLE + 2 SMALL layout (only 4 Deck)
+'@$variation20' 5       ->  BIG EXTRA layout (only 2 Deck)
+'@$variation20' 6       ->  MIDDLE EXTRA layout (only 2 Deck)
+--------------------------------------------------------------------------------
+'@$mixer20' 0           ->  Audio Mixer
+'@$mixer20' 1           ->  Video Mixer
+'@$mixer20' 2           ->  Scratch Mixer
+'@$mixer20' 4           ->  Master Mixer
+--------------------------------------------------------------------------------
+'@$showcenter20' 0      ->  show the Mixer Area
+'@$showcenter20' 1      ->  hide the Mixer Area
+--------------------------------------------------------------------------------
+'@$crossfx20' 0         ->  show crossfader settings
+'@$crossfx20' 1         ->  show MIX FX
+--------------------------------------------------------------------------------
+'@$platter20' 0         ->  dark jog layout
+'@$platter20' 1         ->  white jog layout
+--------------------------------------------------------------------------------
+'@$plattersave20' 0     ->  save setting dark layout when change to white skin layout
+'@$plattersave20' 1     ->  save setting white layout when change to white skin layout
+--------------------------------------------------------------------------------
+'@$time20' 0            ->  show spend/elaps time on jog
+'@$time20' 1            ->  show only elaps time on jog
+--------------------------------------------------------------------------------
+'@$scratch20' 0         ->  disable the scatch funktion on jog
+'@$scratch20' 1         ->  enable the scatch funktion on jog
+--------------------------------------------------------------------------------
+'@$padcolor20' 0        ->  show the pad color
+'@$padcolor20' 1        ->  hide the pad color
+--------------------------------------------------------------------------------
+'@$cuecustom20' 0       ->  show 4 cue's and custom buttons and knobs
+'@$cuecustom20' 1       ->  show 8 cue's
+'@$cuecustom20' 2       ->  show only custom buttons
+'@$cuecustom20' 3       ->  show 4 cue's and custom buttons (no knobs)
+--------------------------------------------------------------------------------
+'@$cover20' 0           ->  show the Song cover picture
+'@$cover20' 1           ->  hide the Song cover picture
+--------------------------------------------------------------------------------
+'@$tapunload20' 0       ->  show the beat tap button
+'@$tapunload20' 0       ->  show the unload button
+--------------------------------------------------------------------------------
+'@$comment20' 0         ->  show pitch in the songinfos
+'@$comment20' 1         ->  show tag comments in the songinfos
+--------------------------------------------------------------------------------
+'@$songposline20' 0     ->  hide a bigger line of the songpositon position
+'@$songposline20' 1     ->  show a bigger line of the songpositon position
+--------------------------------------------------------------------------------
+'@$cuenumber20' 0       ->  show the cue numbers in the songpositon wave
+'@$cuenumber20' 1       ->  hide the cue numbers in the songpositon wave
+--------------------------------------------------------------------------------
+'@$cueline20' 0         ->  show a transparent line in the backgound of the cue numbers
+'@$cueline20' 1         ->  hide the transparent line in the backgound of the cue numbers
+--------------------------------------------------------------------------------
+'@$browserarea20' 0     ->  show the Browser
+'@$browserarea20' 1     ->  hide the Browser
+--------------------------------------------------------------------------------
+'@$prelisten20' 0       ->  hide the prelisten player in the bottom of the Browser
+'@$prelisten20' 1       ->  show the prelisten player in the bottom of the Browser
+--------------------------------------------------------------------------------
+'@$wavebackground20' 0  ->   show a grey background of the main wave
+'@$wavebackground20' 1  ->   show a black background of the main wave
+--------------------------------------------------------------------------------
+'@$wave20' 0            ->  main scratch wave beat shadow type 1
+'@$wave20' 1            ->  main scratch wave beat shadow type 2
+'@$wave20' 2            ->  main scratch wave no beat shadow
+'@$wave20' 3            ->  main classic wave mirrord
+'@$wave20' 4            ->  main classic wave overlap (only 1 wave layout)
+--------------------------------------------------------------------------------
+'@$wavevariation20' 0   ->  main wave bottom separate
+'@$wavevariation20' 1   ->  main wave bottom 1 line
+'@$wavevariation20' 2   ->  main wave top separate
+'@$wavevariation20' 3   ->  main wave top 1 line
+'@$wavevariation20' 4   ->  hide main wave
+--------------------------------------------------------------------------------
+'@$wavesize20' 0        ->  main wave small height
+'@$wavesize20' 1        ->  main wave middle height
+'@$wavesize20' 2        ->  main wave large height
+'@$wavesize20' 3        ->  main wave extra large height
+--------------------------------------------------------------------------------
+'@$wavesort20' 0        ->  main wave sort Deck 3124
+'@$wavesort20' 1        ->  main wave sort Deck 1234
+'@$wavesort20' 2        ->  main wave sort Deck 1342
+--------------------------------------------------------------------------------
+'@$wavebar20' 0         ->  hide the bar/beat counter on main wave
+'@$wavebar20' 1         ->  show the bar counter on main wave
+'@$wavebar20' 2         ->  show the beat counter on main wave
+--------------------------------------------------------------------------------
+'@$custombar20' 0       ->  hide the custom buttons over the Browser  
+'@$custombar20' 1       ->  show the custom buttons over the Browser
+--------------------------------------------------------------------------------
+'@$customrow20' 0       ->  show 24 custom buttons on the custom button bar
+'@$customrow20' 1       ->  show 44 custom buttons on the custom button bar
+--------------------------------------------------------------------------------
+'@$cuepad20' 0          ->  cue/custom on the top, pad on the bottom
+'@$cuepad20' 1          ->  cue/custom on the bottom, pad on the top
+--------------------------------------------------------------------------------
+'@$songposfull20' 0     ->  show the songposition wave mirrord
+'@$songposfull20' 1     ->  show the songposition wave half height
+--------------------------------------------------------------------------------
+'@$joglogo20' 0         ->  hide the Logo on the jog
+'@$joglogo20' 1         ->  show the Logo on the jog (you can changge the logo on the img.png)
+--------------------------------------------------------------------------------
+'@$songinfoborder20' 0  ->  show the little borders around the song information
+'@$songinfoborder20' 1  ->  hide the little borders around the song information
+--------------------------------------------------------------------------------
+'@$infoscroll20' 0      ->  static text of the Artist/Title on the song informations
+'@$infoscroll20' 1      ->  scroll text of the Artist/Title on the song informations
+--------------------------------------------------------------------------------
+'@$cueloop20' 0         ->  show HotCUEs
+'@$cueloop20' 1         ->  show saved Loops
+--------------------------------------------------------------------------------
+'@$support20' 0         ->  hide the variable support page
+'@$support20' 1         ->  show the variable support page
+--------------------------------------------------------------------------------
